@@ -1,0 +1,21 @@
+*{margin: 0; padding: 0; border:none; box-sizing: border-box; border-collapse: collapse;}
+.wrap{width:1200px; margin:0 auto;}
+a{color: #ccc; text-decoration: none; font-weight: bold; }
+a:hover{ color: #ccc;}
+input[type="button"], button { cursor: pointer;}
+
+header > .wrap{height: 60px; background: #00f; display: flex; margin-bottom: 30px;}
+	#logo {width:30%; color: yellow; text-align: center; line-height: 60px;}
+	.name { color: #ccc; }
+	nav{width:70%; line-height: 60px; text-align: right;}
+	nav a{margin-right: 30px;}
+	.name { font-size: 15px; color: #ccc;}
+
+table{width:100%;}
+th, td{border: solid 1px #333; padding: 10px; text-align: center;}
+input,button,textarea{border: solid 1px #333; padding: 5px;}
+button{cursor: pointer;}
+
+#list > .wrap{margin-top: 10px;}
+#list  a{color: #00f;}
+.hit{background: #ff0; color: #f00;}
